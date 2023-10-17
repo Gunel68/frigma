@@ -1,0 +1,192 @@
+.title{
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:  55.762px;
+    width: 200px;
+    height: 93px;
+    flex-shrink: 0;
+    /* padding-right: 951px; */
+    /* padding-left: 124px; */
+    /* padding-top: 91px; */ */
+     padding-bottom: 18px; */
+    }
+    .content{
+        color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    width: 662px;
+    height: 374px;
+    flex-shrink: 0;
+    /* padding-right: 654px; */
+    /* padding-left: 124px; */
+    /* padding-top: 18px; */
+    /* padding-bottom: 470px; */
+    }
+    
+    .bold{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 32.5px;
+    }
+    .word{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23.4px;
+        width: 150px;
+        height: 39px;
+    }
+    .words-photo1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 90px;
+        margin-left: -80px;
+
+    }
+    .title-content{
+        display: flex;
+        flex-direction: column;
+        margin-left: 69px;
+
+    }
+    .photo2{
+        margin-left: 70px;
+    }
+    .photo2-bold-word{
+        display: flex;
+        flex-direction: row ;
+        margin-top: 70px;
+        margin-left: 57px;
+
+    }
+    .about-figma{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-top: 28px;
+
+    }
+    .div1{
+        margin-right: 70px;
+    }
+    .div2{
+        margin-right: 70px;}
+
+
+    @media screen and (min-width: 830px ) and (max-width: 1400px){
+
+ .photo2{
+    display: none;
+    
+ }
+ .title{
+    width: 211.396px;
+height: 53.863px;
+font-size: 32px;
+margin-bottom: 25px
+ }
+ .content{
+    font-size: 14px;
+    width: 330.408px;
+    height: 216.608px;
+ }
+.photo1{
+    width: 181.858px;
+height: 182.438px;
+margin-right: 14px;
+    margin-top: 90px;
+}
+.bold{
+    width: 86.875px;
+height: 22.587px;
+font-size: 15px;
+}
+.word{
+    font-size: 11px;
+    width: 86.875px;
+height: 22.587px;
+}
+.about-figma{
+    margin-right: 25px;
+}
+.photo2-bold-word {
+    margin-left: 93px;
+}
+
+    }
+        
+    @media screen and (min-width: 375px ) and (max-width: 830px){
+        .title{
+            width: 170.08px;
+            height: 43.335px;
+            font-size: 26px;
+            margin-bottom: 22px;
+
+        }
+        .content{
+            width: 308.474px;
+height: 174.274px;
+font-size: 12px;
+
+        }
+        .photo1{
+            width: 186.315px;
+            height: 166.781px;
+            margin-left: 100px;
+            margin-bottom: -72px;
+            margin-top: 44px;
+
+
+        }
+.photo2{
+    display: none;
+}
+.photo2-bold-word {
+    margin-left: 0px;
+}
+.words-photo1{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-left: -37px;
+
+}
+.about-figma {
+    display: flex;
+    flex-direction: row;
+align-items: center;
+flex-wrap: wrap;
+width: 50%;
+margin-left: 36px;
+margin-top: 46px;
+
+}
+.bold{
+    width: 69.896px;
+height: 18.173px;
+font-size: 12px;
+
+}
+.word{
+    width: 86px;
+height: 18px;
+font-size: 10px;
+}
+.figma{
+    display: flex;
+    flex-direction: column;
+}
+.div3{
+    width: 70%;
+    margin-top: 43px;
+
+}
+
+    }
